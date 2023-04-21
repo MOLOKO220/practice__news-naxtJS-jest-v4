@@ -1,0 +1,189 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+.Home {
+  background: rgb(23, 6, 108);
+  padding: 0 10px;
+  > header {
+    height: 50px;
+    width: 100%;
+    background: white;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    > button {
+      width: 130px;
+      height: 35px;
+      background: rgb(23, 6, 108);
+      color: white;
+      font-size: 24px;
+      border-radius: 4px;
+      transition: 300ms;
+      font-weight: 900;
+      &:hover {
+        background: rgb(43, 1, 255);
+      }
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }
+}
+
+.NewItem {
+  border: solid 1px gray;
+  margin: 3px 0;
+  background: rgb(255, 255, 255);
+  padding: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  color: black;
+  > h3 {
+    font-weight: 600;
+  }
+  > div {
+    > span {
+      margin-right: 10px;
+    }
+  }
+}
+.PagesOfNew {
+  background: rgb(23, 6, 108);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99vw;
+  height: auto;
+  > div {
+    width: 98%;
+    height: 95%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    > h6 {
+      font-size: 30px;
+      font-weight: 900;
+    }
+    > .PagesOfNew__url {
+      margin: 10px;
+    }
+    > .PagesOfNew__author {
+      margin: 10px;
+      font-size: 12px;
+    }
+    > .PagesOfNew__comments {
+      width: 1200px;
+      height: auto;
+      padding: 5px;
+      > p {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+.CommentItem {
+  width: 100%;
+  padding: 5px;
+  border: solid 1px gray;
+  margin: 10px 0;
+  box-shadow: 5px 5px 7px rgba(128, 128, 128, 0.5);
+  border-radius: 5px;
+  background: white;
+  > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    border-bottom: solid 1px black;
+    font-weight: 900;
+    > h6 {
+      font-weight: 900;
+    }
+  }
+  > p {
+    width: 100%;
+    padding: 5px;
+  }
+}

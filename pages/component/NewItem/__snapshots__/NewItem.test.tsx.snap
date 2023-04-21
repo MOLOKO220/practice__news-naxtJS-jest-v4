@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewItem snapshot 1`] = `
+<div>
+  <a
+    class="NewItem"
+    href="/343423534"
+  >
+    <h3 />
+    <div>
+      <span>
+        NaN.NaN.NaN  NaN:NaN
+      </span>
+      <span>
+        Rating: 
+      </span>
+      <span>
+        by: 
+      </span>
+    </div>
+  </a>
+</div>
+`;

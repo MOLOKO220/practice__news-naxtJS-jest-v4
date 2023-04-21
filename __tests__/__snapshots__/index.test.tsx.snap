@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home snapshot 1`] = `
+<div>
+  <main
+    class="Home"
+  >
+    <header>
+      <button>
+        RESET
+      </button>
+    </header>
+    <ul>
+      error
+    </ul>
+  </main>
+</div>
+`;

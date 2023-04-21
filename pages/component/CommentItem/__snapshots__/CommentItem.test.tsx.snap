@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentItem snapshot 1`] = `
+<div>
+  <li
+    class="CommentItem"
+  >
+    <header>
+      <h6 />
+      <p>
+        NaN.NaN.NaN  NaN:NaN
+      </p>
+    </header>
+    <p />
+  </li>
+</div>
+`;

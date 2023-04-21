@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentItem snapshot 1`] = `
+<div>
+  <main
+    class="PagesOfNew"
+  >
+    <div>
+      <h6 />
+      <a
+        class="PagesOfNew__url"
+      />
+      <div
+        class="PagesOfNew__date"
+      >
+        NaN.NaN.NaN  NaN:NaN
+      </div>
+      <div
+        class="PagesOfNew__author"
+      >
+        by: 
+      </div>
+      <div
+        class="PagesOfNew__comments"
+      >
+        <p>
+          Comments: 
+        </p>
+        <ul />
+      </div>
+    </div>
+  </main>
+</div>
+`;
